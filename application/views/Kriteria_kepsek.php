@@ -35,21 +35,14 @@
                     <ul class="sidebar-menu">
                         <li class="header">MAIN NAVIGATION</li>
                         <li>
-                            <a href="<?= base_url('dashboard') ?>">
+                            <a href="<?= base_url('dashboard/dashboard_kepsek') ?>">
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                                 <span class="pull-right-container">
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </span>
                             </a>
                         </li>
-                        <li>
-                            <a href="<?= base_url('WeightedProduct') ?>">
-                                <i class="fa fa-question"></i> <span>Weighted Product</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                        </li>
+                        
                         <li class="treeview active">
                             <a>
                                 <i class="fa fa-gear"></i> <span>Kriteria</span>
@@ -58,51 +51,11 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu menu-open" style="display: block;">
-                                <li><a href="<?= base_url('kriteria') ?>"><i class="fa fa-circle-o"></i> Data Kriteria</a></li>
-                                <li><a href="<?= base_url('kriteria/bobot_kriteria') ?>"><i class="fa fa-circle-o"></i> Bobot Kriteria</a></li>
+                                <li><a href="<?= base_url('kriteria/kriteria_kepsek') ?>"><i class="fa fa-circle-o"></i> Data Kriteria</a></li>
+                                
                             </ul>
                         </li>
-                        <li class="treeview">
-                            <a>
-                                <i class="fa fa-refresh"></i> <span>SubKriteria</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                            <ul class="treeview-menu menu-open" style="display: none;">
-                                <li><a href="<?= base_url('subkriteria') ?>"><i class="fa fa-circle-o"></i> Data Subkriteria</a></li>
-                                <li><a href="<?= base_url('subkriteria/bobot_subkriteria') ?>"><i class="fa fa-circle-o"></i> Bobot Subkriteria</a></li>
-                            </ul>
-                        </li>
-                        <li class="treeview">
-                            <a>
-                                <i class="fa fa-user"></i> <span>Alternatif</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                            <ul class="treeview-menu menu-open" style="display: none;">
-                                <li><a href="<?= base_url('alternatif') ?>"><i class="fa fa-circle-o"></i> Data Alternatif</a></li>
-                                <li><a href="<?= base_url('alternatif/evaluasi') ?>"><i class="fa fa-circle-o"></i> Evaluasi Alternatif</a></li>
-                                <li><a href="<?= base_url('alternatif/calculate') ?>"><i class="fa fa-circle-o"></i> Hasil WP Alternatif</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="<?= base_url('laporan') ?>">
-                                <i class="fa fa-print"></i> <span>Laporan</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?= base_url('login') ?>">
-                                <i class="fa fa-sign-out"></i> <span>Logout</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </section>
             </aside>

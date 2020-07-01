@@ -50,7 +50,9 @@ class Login extends CI_Controller{
 			'password' => $password,
 			'hakakses' => $hakakses
 			);
+			
 		$cek = $this->m_login->cek_login("login",$where)->num_rows();
+		
 		if($cek > 0){
  
 			$data_session = array(
@@ -62,7 +64,7 @@ class Login extends CI_Controller{
  
 		}else{
 			echo "Maaf Password atau Username Salah";
-			redirect(base_url('login'));
+			redirect(base_url('login/loginkepsek'));
 		}
 	}
  

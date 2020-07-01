@@ -19,8 +19,9 @@
     <img src="<?php echo base_url() ?>assets/img/logo.png" class="user-image" alt="User Image" width="120" height="120"><p/>
     <a href="<?php echo base_url() ?>login"><b>Login</b> <br/>SPK Weight Product </a>
   </div>
+
   <div class="login-box-body">
-      <form action="<?php echo base_url('login/aksi_login_kepsek'); ?>" method="post">
+      <form action="<?=base_url() ?>login/aksi_login_kepsek" method="post">
       <div class="form-group has-feedback">
         <input type="email" class="form-control" name="username" placeholder="Username" required="true">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

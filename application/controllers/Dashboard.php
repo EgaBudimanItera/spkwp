@@ -17,7 +17,6 @@ class Dashboard extends CI_Controller{
         $data['kriteria']=$this->model_kriteria->count_kriteria();
         $data['subkriteria']=$this->model_subkriteria->count_subkriteria();
         $data['alternatif']=$this->model_alternatif->count_alternatif();
-        $this->load->view('dashboard_kepsek
-        ',$data);
+        $this->load->view('Dashboard_kepsek',$data);
     }
 }

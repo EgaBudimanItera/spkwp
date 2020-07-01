@@ -41,14 +41,7 @@
                                 </span>
                             </a>
                         </li>
-                        <li>
-                            <a href="<?= base_url('WeightedProduct') ?>">
-                                <i class="fa fa-question"></i> <span>Weighted Product</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                        </li>
+                        
                         <li class="treeview">
                             <a>
                                 <i class="fa fa-gear"></i> <span>Kriteria</span>
@@ -57,7 +50,7 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu menu-open" style="display: none;">
-                                <li><a href="<?= base_url('kriteria_kepsek') ?>"><i class="fa fa-circle-o"></i> Data Kriteria</a></li>
+                                <li><a href="<?= base_url('kriteria/kriteria_kepsek') ?>"><i class="fa fa-circle-o"></i> Data Kriteria</a></li>
                                 
                             </ul>
                         </li>
